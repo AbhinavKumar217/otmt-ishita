@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 91px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 356px;
+    height: 72px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.14px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #00B2B2;
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.14px;
+    cursor: pointer;
+    position: relative;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* Custom SVG arrow */
+.dropdown-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    transition: transform 0.3s;
+    stroke: #000;
+}
+
+.dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    min-width: 180px;
+    display: none;
+    padding: 10px 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu a {
+    padding: 8px 20px;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+/* Removed the arrow or any other marker here */
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar a:hover {
+    color: #00B2B2;
+}
+
+.navbar a.active {
+    color: #00B2B2;
+}
+
+
+
+
+/* .navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    color: #007bff; 
+}
+
+.navbar .dropdown-menu a {
+    padding: 10px;
+} */
+
+/* Style for Admin Dashboard link */
+.navbar a:nth-child(8) {  /* Adjust nth-child index as needed */
+    font-weight: bold;
+    color:#00B2B2;
+    
+}
+
+.navbar a:nth-child(8):hover {
+    color:#7f0db4;
+}

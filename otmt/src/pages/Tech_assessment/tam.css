@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.tech_ass {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.des_tam {
+  margin-bottom: 40px;
+}
+
+.des_tam h1 {
+  position: relative;
+  width: 612px;
+  left: 76px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin-top:0px
+}
+
+  
+
+.des_tam p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 76px;
+}
+
+.services_listt {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid with flexible columns */
+  gap: 30.5px; /* Space between items */
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 5%; /* Equal left margin */
+  margin-right: 10%; /* Equal right margin */
+  padding-bottom: 0%;
+}
+
+.title_container {
+  text-align: left;
+  margin-bottom: 30px;
+ margin-left: 20px; 
+}
+
+.title_container h2 {
+  margin: 0;
+  position: relative;
+  width: 612px;
+  left: 60px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Source Sans Pro';
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin-left: 0vh;
+}
+
+
+
+
+.service_item1t {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+  width: 100%; /* Full width of the grid cell */
+  box-sizing: border-box; /* Include padding and border in the width */
+  gap: 10px; /* Space between content inside the box */
+  border-radius: 0px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border style */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Box shadow effect */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effects */
+  padding-bottom: 60px;
+  box-shadow: 10px 8px 20px 0px #364B8180;
+  cursor: pointer;
+
+}
+
+.service_item1t h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #8860D0;
+  text-align: left;
+}
+
+.service_item1t p {
+  font-size: 0.9rem;
+  color: #000000;
+  text-align: left;
+  margin-top: 2px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.service_item1t:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.service-buttonst {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 65px;
+  justify-content: left;
+}
+
+.service-btnt {
+  padding: 10px 70px; /* Increased padding to make the button larger */
+  border: 2px solid black;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px; /* Added slight rounding to the corners */
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  box-shadow: 3px 4px 20px 0px #FFFFFF;
+}
+
+.service-btnt:hover {
+  background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size on hover */
+  border: none;
+  /* box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); */
+  box-shadow: 3px 4px 20px 0px #FFFFFF;
+  color: #fff;
+}
+
+.title_decoration {
+ 
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+}
+.tam_line {
+ 
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+  height: "0.6rem";
+  width: "35vh";
+  margin-left:  "9vh";
+  margin-top: "2vh",
+
+
+
+}
+#back_block_tam {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: -1;
+  color: transparent;
+  top: -45vh;
+  height: 60vh;
+  margin-bottom: -60vh;
+  cursor: none;
+ background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+
+}
+.tam_image {
+  width: 650px; /* Adjust the width as needed */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+.des_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}

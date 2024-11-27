@@ -1,0 +1,223 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+.ehome {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 150px;
+  font-style: Source Sans Pro;
+}
+
+.ehed {
+  margin-bottom: 40px;
+  grid-column: 1;
+  margin-left: 10vh;
+}
+
+.event {
+  margin-bottom: 40px;
+  grid-column: 1;
+  margin-left: 0vh;
+  width: 400px;
+}
+
+.event h1 {
+  width: 612px;
+  top: 138px;
+  left: 108px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 40.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+}
+
+.event_types {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-right: 0vh;
+}
+
+
+
+.event_type2 {
+  margin: 20px;
+  text-align: left;
+  width: 62rem;
+  height: 25rem;
+  background: #ffffff;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  padding-bottom: 120px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+
+.event_type2 p {
+  font-size: 1.3rem;
+  color: #8860d0;
+  margin-top: 3.0rem;
+  margin-bottom: 0rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.event_type2 p.disc {
+  color: #555;
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 9rem;
+}
+
+.sub_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:right;
+  padding-top: 0px;
+  height: 13vh;
+  margin-top: 14.5vh;
+  gap: 0vh;
+  cursor: pointer;
+  padding-left: 2vh;
+}
+
+.sub_card {
+  text-align: left;
+  width: 10rem;
+  height: 20rem;
+  background: #ffffff;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  padding-bottom: 13px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  margin-left: 0vh;
+  margin-right: 7vh;
+  margin-bottom: 4vh;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, border 0.3s ease-in-out;
+  position: relative; /* Ensure relative positioning for absolute positioning of button */
+  
+  
+}
+
+.sub_card:hover {
+  transform: scale(1.05);
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #a7cee3 0%, #acd3d3 100%);
+}
+
+.sub_card p {
+  color: #ffffff;
+}
+
+.sub_card p.date {
+  font-size: 39px;
+  font-weight: lighter;
+  margin-top: 0.5rem;
+}
+
+.sub_card p.month {
+  font-size: 0.75rem;
+  font-weight: lighter;
+  margin-top: 0rem;
+}
+
+.sub_card p.title {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  margin-top: 0.5rem;
+}
+
+.sub_card p.description {
+  font-size: 0.75rem;
+  font-weight: lighter;
+  margin-top: 0rem;
+  padding-bottom: 80px;
+}
+
+.sub_card p.loc {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.event_btn {
+  text-align: left;
+  border: none;
+  
+  
+}
+
+
+.know {
+  padding: 20px 15px;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px;
+  cursor: pointer;
+  background: #ffffff;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none; /* Hide the button initially */
+  font-size: 1rem;
+  text-align: center; /* Center text horizontally */
+  white-space: nowrap; /* Prevent text from wrapping to multiple lines */
+}
+
+
+
+.line_eve {
+  width: 35vh;
+  height: 0.6rem;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+  margin-left: 0vh;
+  margin-top: 2vh;
+}
+
+#back_block_event {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+  z-index: -1;
+  color: transparent;
+  top: -25vh;
+  height: 30vh;
+  margin-bottom: -30vh;
+  cursor: none;
+  grid-column: 1/-1;
+
+}
+@media screen and (max-width: 768px) {
+  .ehome {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+ 

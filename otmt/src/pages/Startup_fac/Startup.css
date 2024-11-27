@@ -1,0 +1,226 @@
+
+
+.startup {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.startup a {
+  text-decoration: none;
+}
+
+.startup-container {
+  display: flex; /* Use flexbox to align items side by side */
+  align-items: flex-start; /* Align items to the top */
+  gap: 40px; /* Space between the two sections */
+}
+
+.des_start {
+  margin-bottom: 40px;
+}
+
+.des_start h1 {
+  position: relative;
+  width: 612px;
+  left: 76px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.des_start h2 {
+  position: relative;
+  width: 1000px;
+  left: 76px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.des_start p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 76px;
+  margin-bottom: 20rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 65px;
+  justify-content: left;
+}
+
+.service_btn {
+  display: flex;
+  padding: 10px 70px; /* Increased padding to make the button larger */
+  border: 2px solid black;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px; /* Added slight rounding to the corners */
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+}
+
+.service_btn:hover {
+  background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size on hover */
+  border: none;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.underline1 {
+  width: 35vh;
+  height: 0.6rem;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+  margin-left: 9vh;
+}
+
+.underline2 {
+  width: 100vh;
+  height: 0.4rem;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+  margin-left: 9vh;
+}
+
+#back_block_startup {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: -1;
+  color: transparent;
+  top: -25vh;
+  height: 50vh;
+  margin-bottom: -40vh;
+  cursor: none;
+  background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+}
+
+
+
+
+
+.Cards {
+  margin-left: -20%; /* Adjust this value to move the section further left or right */
+}
+
+.tech_types {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Keeps space between cards consistent */
+  padding-top: 30px;
+  padding-left: 0; /* Remove any padding if necessary */
+  padding-right: 0; /* Remove any padding if necessary */
+}
+
+.tech_type1 {
+  margin: 5px; /* Further reduced margin to decrease gap between cards */
+  text-align: center;
+  width: 15rem;
+  height: 20rem;
+  background: #FFFFFF;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  padding-bottom: 120px;
+}
+
+.tech_type1 img {
+  width: 1rem;
+  height: 19rem;
+  object-fit: cover;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+}
+
+.tech_type1 p {
+  font-size: 1.3rem;
+  color: #8860D0;
+  margin-top: 2.5rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tech_type1 a {
+  text-decoration: none;
+}
+
+.tech_type1 p.para {
+  display: none;
+  color: #333;
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+}
+
+.tech_type1:hover {
+  height: 19rem;
+  transition: 0.7s ease-in-out;
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+  text-align: left;
+}
+
+.tech_type1:hover p {
+  color: #FFFFFF;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  transition: 0.7s ease-in-out;
+  text-align: left;
+  text-decoration: none;
+}
+
+.tech_type1:hover p.para {
+  display: block;
+  transition: 0.7s ease-in-out;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: justify;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.tech_type1 img {
+  transition: box-shadow 0.7s ease-in-out;
+}
+
+.tech_type1:hover img {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  width: 15rem;
+  height: 12rem;
+}
+
+

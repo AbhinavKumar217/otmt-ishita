@@ -1,0 +1,311 @@
+
+ @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+.Our_Technologies {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.tech {
+  margin-bottom: 40px;
+  grid-column: 1;
+  margin-left: 10vh;
+}
+
+.tech h1 {
+  width: 612px;
+  top: 138px;
+  left: 108px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+}
+
+.tech p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 78%;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.title_decoration {
+  width: 35vh;
+  height: 2.5rem;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+}
+
+.techno_highlights {
+  margin-bottom: 30px;
+  grid-column: 1 / 3;
+  align-content: center;
+  width: 100%;
+}
+
+#techno_highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.background_block_tech {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  color: transparent;
+  top: -37vh;
+  height: 50vh;
+  margin-bottom: -45vh;
+  cursor: none;
+  background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+
+}
+
+.high {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.high_item {
+  margin: 30px;
+  text-align: center;
+  width: 12rem;
+  height: 13rem;
+  background: transparent;
+  padding-bottom: 8rem;
+  
+}
+
+.high_item img {
+  width: 12rem;
+  height: 10rem;
+  object-fit: cover;
+  box-shadow: 3px 4px 10px 0px #364B8180;
+
+}
+
+.high_item p {
+  font-size: 1.125rem;
+  color: #ffffff;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+
+
+.high_item:hover {
+  height: 19rem;
+  margin-top: -3rem;
+  margin-bottom: -4rem;
+  transition: 0.3s ease-in-out;
+  background: white;
+  text-align: left;
+}
+
+.high_item:hover p {
+  color: #000000;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.high_item:hover p.text {
+  display: block;
+  transition: 0.3s ease-in-out;
+  text-align: justify;
+
+}
+
+.high_item img {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.high_item:hover img {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.brochure_btn {
+  display: none;
+  margin: 10px auto 0;
+  padding: 20px 55px;
+  color:#ffffff;
+  border: none;
+  border-radius: 0px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  background-color: #8860d0;
+  margin-bottom: 2rem;
+  /* transition: background-color 0.3s ease; */
+}
+
+.high_item a {
+  text-decoration: none;
+}
+
+.brochure_btn:hover {
+  background-color:#8860D0;
+}
+
+.high_item p.text {
+  display: none;  
+  color: #333;
+  font-size: 0.75rem;
+  height: 3rem;
+  margin-bottom: 1rem; /* Increase bottom margin for spacing */
+  margin-top:1rem;
+}
+
+.high_item:hover .brochure_btn {
+  display: block;
+  margin-top: 6rem; /* Adjust this value to control the gap */
+  /* Other styles */
+}
+
+
+.tech_button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 65px;
+  justify-content: left;
+}
+
+.tech_btn {
+  padding: 10px 70px; /* Increased padding to make the button larger */
+  border: 2px solid black;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px; /* Added slight rounding to the corners */
+  background:#fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  box-shadow: 3px 4px 20px 0px #FFFFFF;
+}
+
+.tech_btn:hover {
+  background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size on hover */
+  border: none;
+  box-shadow: 3px 4px 20px 0px #FFFFFF;
+  color: #fff;
+
+}
+
+
+.tech_explore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0px;
+  /* margin: 20px; */
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  background: #FFFFFF;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
+  padding-bottom: 120px;
+  margin-top: 0px;
+  margin-left: 300px;
+  
+  
+  
+
+}
+
+.tech_explore img {
+  width: 15rem;
+  height: 20rem;
+  object-fit: cover;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
+}
+
+
+.tech_explore p {
+  font-size: 1.3rem;
+  color: #8860D0;
+  margin-top: 2.5rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  text-align: center;
+  
+  
+  
+}
+.tech_explore a {
+  text-decoration: none;
+}
+
+
+
+.tech_explore:hover {
+  height: 15rem ;
+  transition: 0.7s ease-in-out;
+ background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%) ;
+ 
+  text-align: left;
+}
+
+.tech_explore:hover p {
+   color:#FFFFFF;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  transition: 0.7s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+ /* .tech_explore img {
+  transition: box-shadow 0.7s ease-in-out;
+} */
+
+/* .tech_explore:hover img {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  width: 15rem;
+  height: 12rem;
+
+
+} */
+
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
+}
+
+.button_tech 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+
+
+}
+

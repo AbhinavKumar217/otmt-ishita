@@ -1,0 +1,192 @@
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+#faqBtn {
+    background-color:transparent;
+    color:#fefefe;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Source Sans Pro; 
+    position: fixed;
+    z-index: 1000;
+    bottom: 150px; 
+    right: 20px; 
+    
+    
+
+}
+#faqBtn:hover {
+    color: black;
+}
+
+.popup {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 900px;
+    border-radius: 0px;
+    margin-left: 900px;
+    margin-top: 100px;
+    margin-right: 5px;
+    box-shadow: 4px 8px 20px 0px #00000033;
+    border: 2px solid;
+    background: radial-gradient(114.65% 114.65% at 3.73% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
+
+
+
+}
+
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
+ 
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+#faqBtn {
+    background-color: transparent;
+    color: #fefefe;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    position: fixed;
+    z-index: 1000;
+    bottom: 150px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+}
+
+#faqBtn:hover {
+    color: black;
+}
+
+.popup {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Add a background color with transparency */
+}
+
+/* .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: auto;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 4px 8px 20px 0px #00000033;
+    border: 2px solid;
+    background: radial-gradient(114.65% 114.65% at 3.73% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
+} */
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 900px;
+    border-radius: 0px;
+    margin-left: 900px;
+    margin-top: 100px;
+    margin-right: 5px;
+    box-shadow: 4px 8px 20px 0px #00000033;
+    border: 2px solid;
+    background: radial-gradient(114.65% 114.65% at 3.73% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
+
+
+
+}
+
+
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Accordion Styles */
+.accordion__button {
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.accordion__button:hover,
+.accordion__button:focus {
+    background-color: #004d40;
+}
+
+.accordion__panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion__panel p {
+    padding: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}

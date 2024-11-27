@@ -1,0 +1,100 @@
+/* General Footer Styles */
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
+}
+
+
+.footer-logos img {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.footer-logos img:hover {
+    transform: scale(1.1); 
+}
+
+.logo-1 {
+    width: 128px;
+    height: 63px;
+    top: 895px;
+    left: 192px;
+    gap: 0px;
+    opacity: 1px;
+    
+    
+    
+}
+
+.logo-2 {
+    width: 106px;
+    height: 63px;
+    top: 892px;
+    left: 470px;
+    gap: 0px;
+    opacity: 1px;
+    
+
+}
+
+
+.logo-3 {
+    width: 159px;
+    height: 57px;
+    top: 898px;
+    left: 726px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+.logo-4 {
+    width: 55px;
+    height: 66px;
+    top: 895px;
+    left: 1035px;
+    gap: 0px;
+    opacity: 1px;
+    
+}
+
+.logo-5 {
+    width: 111px;
+    height: 46px;
+    top: 905px;
+    left: 1240px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+.logo-6 {
+    width: 111px;
+    height: 46px;
+    top: 905px;
+    left: 1240px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+/* @media (max-width: 768px) {
+    .footer-logos {
+        flex-direction: column;
+    } */
+
+    /* .footer-logos img {
+        max-width: 60px; /* Adjust the size for smaller screens */
+        /* margin: 5px;
+    }
+} */ 
+

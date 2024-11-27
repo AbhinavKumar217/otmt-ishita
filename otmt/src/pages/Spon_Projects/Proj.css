@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.proj-container {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.proj-title {
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  color: #328d89;
+  margin-bottom: 20px;
+}
+
+.proj-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.proj-table th,
+.proj-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.proj-table th {
+  background-color: #328d89;
+  color: #fff;
+  font-weight: 600;
+}
+
+.proj-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.proj-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.exp-moree {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.exp_btnn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #328d89;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 1600px;
+}
+
+.exp_btnn:hover {
+  background-color: #6a4b8f
+}

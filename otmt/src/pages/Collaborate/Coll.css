@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+.chome {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: 5px; */
+  padding-bottom: 150px;
+}
+
+.ched {
+    margin-bottom: 40px;
+    grid-column: 1;
+    margin-left: 10vh;
+  }
+
+.collab{
+    
+        margin-bottom: 40px;
+        grid-column: 1;
+        margin-left: 0vh;
+        width: 400px;
+}        
+      
+
+
+
+  .collab h1 {
+    width: 612px;
+    top: 138px;
+    left: 108px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Source Sans Pro;
+    font-size: 3rem;
+    font-weight:bolder;
+    line-height: 40.34px;
+    text-align: left;
+    color: #328d89;
+    margin: 0;
+  }
+  
+  .collab p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 78%;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .collab_types{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+  
+    margin-top: 9vh;
+  }
+
+    .collab_type1 {
+      margin: 20px;
+      text-align: left;
+      width: 12rem;
+      height: 25rem;
+      background: #ffffff;
+      box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+      padding: 2vh; /* Updated */
+      display: flex; /* Updated */
+      flex-direction: column; /* Updated */
+      justify-content: space-between; /* Updated */
+    }
+
+  
+
+  .collab_type1 p {
+    font-size: 1.3rem;
+    color: #8860D0;
+    margin-top: 1.0rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+    text-align: left;
+    }
+  
+ 
+  .collab_type1 p.discription {
+
+    color: #555;
+    font-size: 0.75rem;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top:0.5rem ;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+  
+  .collab_type1:hover {
+    height: 25rem ;
+    transition: 0.7s ease-in-out;
+    background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+   
+    text-align: left;
+  }
+  
+  .collab_type1:hover p {
+     color:#FFFFFF;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    transition: 0.7s ease-in-out;
+    text-align: left;
+  }
+  
+  
+
+  .collab_type1:hover p.discription {
+    display: none;
+    transition: 0.7s ease-in-out;
+    padding-top: 0px;
+    padding-bottom: 20px ;
+    text-align:justify;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .coll_btn{
+    text-align: left;
+    border: none;
+
+
+  }
+
+  .c_btn {
+  
+  padding: 10px 20px; /* Updated for smaller padding */
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background 0s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  text-align: left;
+  }
+
+  .collab_type1:hover button.c_btn{
+
+    padding: 10px 20px; /* Updated */
+    border: 2px solid black; /* Updated */
+    color: #000000; /* Updated */
+    font-weight: bold; /* Updated */
+    border-radius: 0px; /* Updated */
+    cursor: pointer; /* Updated */
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Updated */
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); /* Updated */
+    background: #fff; /* Updated */
+    text-align: left; /* Updated */
+    margin-top: auto; /* Updated */
+
+
+  }
+  
+  .line_coll {
+    width: 35vh;
+    height: 0.6rem;
+    background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+    color: transparent;
+    margin-left: 0vh;
+  
+  }
+
+  #back_block_coll {
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+    z-index: -1;
+    color: transparent;
+    margin-top: -20vh;
+    height: 40vh;
+    margin-bottom: -40vh;
+    cursor: none;
+    grid-column: 1/-1;
+
+    padding-left: 20px;
+      padding-right: 20px;
+      margin-left: -20px;
+      margin-right: -20px;
+  }
+
+  
+   
+
+
+  
+  @media screen and (max-width: 768px) {
+    .home {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  
+  
+  
+
+
+
+
+
+

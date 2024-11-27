@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.ipr-container {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.ipr-title {
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+
+.ipr-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: 70px;
+  height: 80%;
+}
+
+.ipr-table th, .ipr-table td {
+  border: 1px solid #333;
+  padding: 12px 15px;
+  text-align: left;
+  /* background: linear-gradient(145deg, #8860D0, #73CFCA);; */
+  background-color:#ffffff;
+}
+
+.ipr-table th {
+  
+  background-color: #8860d0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ipr-table td {
+  background-color:#ffffff;
+  color:#333;
+}
+
+.ipr-table tbody tr:nth-child(even) {
+  background-color: #FCEABB;
+}
+
+.ipr-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
